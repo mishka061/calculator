@@ -23,7 +23,6 @@ mul.onclick = function() {
     
 }
 divis.onclick = function() {
-    let sum = +num1.value - +num2.value
+    let sum = +num1.value / +num2.value
     res.innerHTML=sum
-    
 }
